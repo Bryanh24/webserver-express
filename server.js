@@ -14,7 +14,7 @@ app.set("view engine", "hbs");
 
 app.get("/", (req, res) => {
     res.render("home", {
-        name: "Mi amor",
+        name: "bryan hernandez",
     });
 });
 app.get("/about", (req, res) => {
